@@ -29,8 +29,6 @@ Auto-Login: Memória de sessão para que não tenhas de introduzir a password a 
 ⚙️ Como Instalar
 Instala a extensão Tampermonkey no teu browser (Chrome, Firefox, Edge, etc.).
 
-[Clica aqui para instalar o Script](SUBSTITUI_ISTO_PELO_TEU_LINK_RAW_DO_GITHUB)
-
 O Tampermonkey vai abrir uma janela. Clica em Instalar.
 
 Abre o Grepolis e faz login no ecrã do bot com as tuas credenciais VIP!
