@@ -1,62 +1,53 @@
-Este não é um script de automação comum. É um motor de execução tática que opera diretamente na camada de comunicação do jogo, ignorando as limitações da interface visual para garantir uma performance impossível para um ser humano.
+Domina o servidor com a tecnologia mais avançada alguma vez criada para o Grepolis. O FlaviotGrepoBot v18 não é apenas um assistente; é um sistema de gestão militar autónomo que pensa, reage e conquista por ti, 24 horas por dia.
 
-🧠 1. O Motor Invisível (Bypass de Infraestrutura)
-O bot opera através de um sistema de "Telepatia Digital", comunicando diretamente com os servidores da InnoGames via gpAjax.
+Projetado para ser completamente invisível, ele opera nas sombras enquanto tu aproveitas a tua vida, garantindo que a tua conta se torna uma potência imparável.
 
-Independência de Interface: Ao contrário de outros bots, o FlaviotGrepoBot não precisa de ter janelas abertas. Ele executa ordens em background total.
+🗡️ 1. Ofensiva: O Sniper de Precisão Inabalável
+O nosso sistema de agendamento é o terror dos defensores. Ele não se limita a enviar tropas; ele garante que elas chegam no segundo exato.
 
-Extração de Dados Ocultos (_fetchMovId): Implementação de um sistema de scraping dinâmico que cria instâncias invisíveis no DOM para capturar IDs de movimentos que o jogo tenta esconder do utilizador.
+Correção de Trajetória em Tempo Real: Se o servidor tentar desviar o teu ataque, o bot deteta a falha instantaneamente, corrige o curso e força a entrada no tempo alvo.
 
-Snapshot de Segurança: Monitorização analítica dos armazéns com alertas de emergência se for detetada uma perda súbita de recursos (>30%), permitindo reagir a pilhagens em tempo real.
+Gestão de Janelas de 4 Segundos: O algoritmo de elite garante uma precisão de impacto que o olho humano não consegue replicar.
 
-🎯 2. Módulo de Sniper: Precisão Milimétrica
-O sistema de agendamento de ataques mais avançado do mercado, desenhado para derrotar o anti-timer do servidor.
+Sincronização de Colonos: O bot deteta automaticamente operações de conquista. Ele agrupa ataques de limpeza milissegundos antes do colono e encaixa apoios de blindagem milissegundos depois. É a ciência da conquista perfeita.
 
-Lógica "Send & Cancel": O bot inicia o ataque 15 segundos antes da hora alvo. Lê a resposta do servidor e avalia o impacto real. Se a margem de erro for superior a 4 segundos, cancela instantaneamente e tenta de novo. Suporta até 8 tentativas sucessivas para cravar o segundo exato.
+🛡️ 2. Defensiva: O Sistema Sentinela "Fantasma"
+Torna as tuas tropas imortais com a tática de evasão mais sofisticada do jogo.
 
-Contexto de Conquista: Detecção automática de Navios Colonizadores.
+Evasão Tática Sincronizada (Dodge): Ao detetar uma ameaça, o bot retira as tropas para um refúgio seguro. O inimigo bate numa cidade vazia e não ganha pontos de combate.
 
-Escolta de Ataque: Garante que os teus ataques de limpeza batem milissegundos antes do teu colono.
+Retorno Instantâneo: Através de um sistema de temporização ultra-preciso, as tuas tropas regressam a casa no milissegundo seguinte ao impacto inimigo. Elas desaparecem e aparecem como se fossem fantasmas.
 
-Blindagem de Apoio: Garante que os teus apoios entram milissegundos depois do colono, segurando o cerco ou a revolta.
+Identificação de Alvos Invisíveis: O bot consegue rastrear e gerir movimentos de tropas que o jogo tenta ocultar, garantindo que tens sempre o ID correto para manobras de emergência.
 
-🛡️ 3. Módulo de Sentinela: O "Passinho ao Lado"
-Uma defesa coreografada que torna as tuas tropas imortais.
+Milícia Inteligente: Ativação de defesas civis apenas em cenários de risco real, otimizando a produção.
 
-Dodge de Alta Fidelidade: Ao detectar um ataque, o bot calcula o tempo de marcha (marchMs) até ao refúgio escolhido. Se for viável, despacha as tropas.
+🏗️ 3. Gestão de Império: IA de Decisão Estratégica
+O bot não segue uma lista cega; ele avalia o que é melhor para o teu crescimento.
 
-Retorno Automático Pós-Impacto: Através de um temporizador de precisão, o bot cancela o movimento de fuga exatamente um milissegundo após o ataque inimigo bater na cidade vazia. As tropas dão meia-volta e regressam a casa sem um único arranhão.
+Priorização Dinâmica de Edifícios (Scoring): Cada construção é pontuada em tempo real. Se estiveres sob ataque, a Muralha torna-se prioridade absoluta. Se a população estiver baixa, a Quinta passa à frente.
 
-Milícia Híbrida: Ativação inteligente via API com fallback automático para o DOM (interface) caso o servidor bloqueie o pedido direto.
+Modo Operação Noturna: Durante a madrugada, o bot prioriza inteligentemente as ordens de longa duração para garantir que o teu Senado nunca pare enquanto dormes.
 
-🏗️ 4. Gestor de Império: IA de Decisão Estratégica
-O bot não se limita a clicar; ele decide o que é melhor para a tua conta.
+Gruta Blindada: Depósito automático de prata para garantir que nenhum espião consegue ver o que tens dentro de portas.
 
-Scoring Dinâmico de Edifícios: Avalia prioridades em tempo real:
+🚜 4. Economia e Dominação de Recursos
+Farm com Salto de Ilha: O bot gere as aldeias bárbaras com inteligência geográfica. Se uma cidade está cheia, ele redireciona automaticamente o saque para outras cidades tuas na mesma ilha. Desperdício zero de recursos.
 
-Modo Madrugada: Entre as 00h e as 07h, prioriza edifícios de longa duração para maximizar o tempo de descanso do processador.
+Gestão de Crise de Armazém: Monitorização constante que evita o transbordo de recursos, investindo-os em tropas ou edifícios antes de os perderes.
 
-Prioridade de Guerra: Sob ataque, o bot ignora a lista normal e foca recursos na Muralha e no Quartel.
+Acampamento de Bandidos Automático: Progressão constante até ao nível 100, garantindo todas as recompensas de combate sem esforço manual.
 
-Emergência de Quinta: Bloqueia todas as construções se a população descer dos 60 habitantes para forçar a expansão da Fazenda.
+Diplomacia de Missões: Execução autónoma de missões da ilha, escolhendo sempre o caminho tático mais vantajoso e gerindo o inventário de recompensas.
 
-Gruta Nível 10+: Sistema de depósito automático que "funde" prata sempre que os recursos excedem o limite, tornando a tua conta impenetrável a espiões.
+📊 5. Inteligência Visual e Relatórios
+Gerador de Inteligência BB: Cria relatórios de guerra profissionais com ícones nativos e design premium para partilha direta em fóruns de aliança.
 
-🚜 5. Economia e Micro-Tarefas
-Island Hopping (Saque Inteligente): O bot monitoriza os armazéns de todas as tuas cidades na mesma ilha. Se uma cidade estiver cheia, ele redireciona o farm das Aldeias Bárbaras para outra cidade tua na mesma ilha. Desperdício zero.
+Monitorização de Pilhagem: Um sistema analítico avisa-te se houver quedas anormais nos teus recursos, permitindo detetar ataques furtivos de vizinhos.
 
-Auto-Bandidos: Execução em loop do Acampamento de Bandidos até ao nível 100, com recolha otimizada de recompensas.
+🔐 6. Ecossistema Seguro e Persistente
+Nuvem de Dados Pessoal: As tuas configurações, refúgios e planos estão guardados de forma segura na nuvem, vinculados à tua identidade.
 
-Missões de Ilha Autónomas: Decide o melhor caminho tático, verifica tropas e recursos disponíveis, e gere o inventário para garantir que nenhuma recompensa é perdida.
+Segurança de Acesso: Sistema de proteção de conta que garante que só o utilizador autorizado pode comandar o exército.
 
-📊 6. Ferramentas de Suporte Visual
-GME (Map Enhancer) Nativo: Ferramentas de desenho no mapa, identificação de jogadores inativos e marcação visual de alianças inimigas.
-
-Gerador de Código BB Premium: Cria relatórios profissionais com ícones nativos do jogo (navios, tropas, espiões) prontos para partilhar no fórum da aliança.
-
-🔐 7. Segurança e Nuvem
-Arquitetura Cloud: Integração com base de dados externa para gestão de acessos e configurações persistentes.
-
-Validação de Identidade: Sistema de verificação que vincula o acesso ao player_id real, garantindo a integridade da tua conta e das tuas definições em qualquer computador.
-
-FlaviotGrepoBot: Porque no Grepolis, a sorte favorece os que têm o melhor código. 🚀🏛️
+FlaviotGrepoBot: Porque a guerra ganha-se com estratégia, mas domina-se com tecnologia. 🚀🏛️
